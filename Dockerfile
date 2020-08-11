@@ -1,6 +1,6 @@
 FROM tomcat:jdk8
 
-RUN apt update && apt install -y postgresql
+RUN apt update && apt install -y postgresql aapt
 USER root
 WORKDIR /app
 COPY . /app
