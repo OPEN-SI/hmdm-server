@@ -5,4 +5,5 @@ USER root
 COPY . .
 RUN chmod +x hmdm_install.sh
 RUN chmod +x entrypoint.sh
+USER postgres
 CMD [ "bash", "entrypoint.sh" ]
