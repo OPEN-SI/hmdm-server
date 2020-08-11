@@ -5,4 +5,4 @@ USER root
 COPY . .
 RUN chmod +x hmdm_install.sh
 RUN chmod +x entrypoint.sh
-CMD [ "sh", "entrypoint.sh" ]
+CMD [ "bash", "entrypoint.sh" ]
